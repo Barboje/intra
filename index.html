@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intranet</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+
+</head>
+
+<body>
+
+  <div class="nav-vermelha">
+    <span class="icones-rede">
+      <i class="fab fa-facebook-square"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </span>
+
+    <div class="buscar">
+      <div class="input-group">
+        <input type="text" class="form-control">
+        <div class="input-group-append">
+          <i class="fas fa-search justify-content-end" alt="Buscar..."></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- <i class="fas fa-search justify-content-end" alt="Buscar..."></i> -->
+    <!-- <div id="divBusca">
+     
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button">Button</button>
+          </div>
+        </div>
+      </div> -->
+    <!-- <input type="text" id="txtBusca" /> -->
+  </div>
+
+  <div class="nav-branca">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <img src="IMG/Logo.png" class="d-inline-block align-top" alt="" loading="lazy">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Notícias <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Minha Página <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Aniversariantes <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Políticas Internas <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Links Úteis <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="IMG/menino-mundo.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="IMG/menino-mundo.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <div class="titulo-noticias">
+    <hr width=40% align=left noshade>
+    <h1>Notícias</h1>
+  </div>
+
+  <div class="container noticias-container">
+    <div class="row">
+      <div class="foto-pessoas col-sm-12 col-md-12 col-lg-6">
+        <div class="card">
+          <img src="IMG/foto-noticias1.png" class="card-img-top" alt="...">
+          <div class="card-img-overlay">
+            <h2 class="foto-pessoas-titulo card-title">LOREM IPSUM DOLOR SIT</h2>
+          </div>
+          <div class="card-body">
+            <p class="foto-pessoas-subtitulo card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Repellendus cumque </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="foto-mulher card">
+          <img src="IMG/foto-noticias2.png" class="card-img-top" alt="...">
+          <div class="card-img-overlay">
+            <h2 class="foto-mulher-titulo card-title">LOREM IPSUM DOLOR SIT</h2>
+          </div>
+          <div class="card-body">
+            <p class="foto-mulher-subtitulo card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-3">
+
+        <div class="row no-gutters row-margin-bottom">
+          <div class="col-4">
+            <img src="IMG/imagem-pequena-noticias.png" class="card-img" alt="...">
+          </div>
+          <div class="col-8">
+            <h2 class="foto-pequena-titulo card-title">LOREM IPSUM DOLOR SIT AMET</h2>
+            <p class="foto-pequena-subtitulo card-text">This is a wider card with supporting text below.
+          </div>
+        </div>
+
+        <div class="row no-gutters row-margin-bottom">
+          <div class="col-4">
+            <img src="IMG/imagem-pequena-noticias.png" class="card-img" alt="...">
+          </div>
+          <div class="col-8">
+            <h2 class="foto-pequena-titulo card-title">LOREM IPSUM DOLOR SIT AMET</h2>
+            <p class="foto-pequena-subtitulo card-text">This is a wider card with supporting text below.
+          </div>
+        </div>
+
+        <div class="row no-gutters row-margin-bottom">
+          <div class="col-4">
+            <img src="IMG/imagem-pequena-noticias.png" class="card-img" alt="...">
+          </div>
+          <div class="col-8">
+            <h2 class="foto-pequena-titulo card-title">LOREM IPSUM DOLOR SIT AMET</h2>
+            <p class="foto-pequena-subtitulo card-text">This is a wider card with supporting text below.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="vetor-red">
+    <img src="IMG/objeto-vetor-red.png">
+  </div>
+
+  <section class="eventos">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4 h-100 text-center">
+          <img src="img/calendar.png" class="img img-responsive img-calendario">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-7 col-lg-8 h-100 margin-xs-evento">
+          <div class="row">
+            <div class="col-12">
+              <h2>Nome do Evento</h2>
+              <p>
+                18h00 - 20h00
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vulputate enim mollis ante cursus
+                tristique. Etiam commodo, velit non porta viverra, mauris felis fermentum magna, luctus lobortis augue
+                erat quis dolor.
+              </p>
+              <h3>
+                Próximos eventos
+              </h3>
+            </div>
+            <div class="col-12 proximo-evento">
+              28 Maio - 20h00 - 21h00 <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b>
+            </div>
+            <div class="col-12 proximo-evento">
+              29 Maio - 20h00 - 21h00 <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="area-branca">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xs-12 col-sm-12- col-md-6 col-lg-4 text-center">
+          <img src="img/documentos.png" class="img img-responsive">
+          <div class="carousel-caption">
+            <h4>Busca de documentos</h4>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12- col-md-6 col-lg-4 text-center">
+          <img src="img/ideias.png" class="img img-responsive">
+          <div class="carousel-caption">
+            <h4>Boas Ideias</h4>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12- col-md-6 col-lg-4 text-center">
+          <img src="img/satisfacao.png" class="img img-responsive">
+          <div class="carousel-caption">
+            <h4>Pesquisa de Satisfação</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="area-aniversariantes">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h1>Aniversariantes</h1>
+          <button type="button" class="btn btn-todos">Ver todos</button>
+          <div class="row aniversariante-row">
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 aniversariante niver-pessoa text-center h-100">
+              <img src="img/pessoa-1.png" class="img img-responsive">
+              <h2>Alessandra Stewart</h2>
+              <h3>(Marketing)</h3>
+              <h3>11/09 Aniversário</h3>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 aniversariante niver-empresa text-center h-100">
+              <img src="img/pessoa-2.png" class="img img-responsive">
+              <h2>Alessandra Stewart</h2>
+              <h3>(Marketing)</h3>
+              <h3>11/09 Aniversário de Casa</h3>
+              <button type="button" class="btn btn-parab">Dê os parabéns</button>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 aniversariante niver-empresa text-center h-100">
+              <img src="img/pessoa-3.png" class="img img-responsive">
+              <h2>Alessandra Stewart</h2>
+              <h3>(Marketing)</h3>
+              <h3>11/09 Aniversário de Casa</h3>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 aniversariante niver-pessoa text-center h-100">
+              <img src="img/pessoa-1.png" class="img img-responsive">
+              <h2>Alessandra Stewart</h2>
+              <h3>(Marketing)</h3>
+              <h3>11/09 Aniversário</h3>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 aniversariante niver-empresa text-center h-100">
+              <img src="img/pessoa-2.png" class="img img-responsive">
+              <h2>Alessandra Stewart</h2>
+              <h3>(Marketing)</h3>
+              <h3>11/09 Aniversário de Casa</h3>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 aniversariante niver-empresa text-center">
+              <img src="img/pessoa-3.png" class="img img-responsive">
+              <h2>Alessandra Stewart</h2>
+              <h3>(Marketing)</h3>
+              <h3>11/09 Aniversário de Casa</h3>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <h1>Colaboradores</h1>
+          <button type="button" class="btn btn-todos">Ver todos</button>
+          <div class="row colaboradores-row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-left h-100 colab">
+              <img src="img/pessoa-4.png" class="float-left">
+              <h2>Maria Fernanda de Castro</h2>
+              <h3>(Marketing)</h3>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-left h-100 colab">
+              <img src="img/pessoa-5.png" class="float-left">
+              <h2>Maria Fernanda de Castro</h2>
+              <h3>(Marketing)</h3>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-left h-100 colab">
+              <img src="img/pessoa-6.png" class="float-left">
+              <h2>Maria Fernanda de Castro</h2>
+              <h3>(Marketing)</h3>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-left h-100 colab">
+              <img src="img/pessoa-4.png" class="float-left">
+              <h2>Maria Fernanda de Castro</h2>
+              <h3>(Marketing)</h3>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-left h-100 colab">
+              <img src="img/pessoa-5.png" class="float-left">
+              <h2>Maria Fernanda de Castro</h2>
+              <h3>(Marketing)</h3>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-left h-100 colab">
+              <img src="img/pessoa-6.png" class="float-left">
+              <h2>Maria Fernanda de Castro</h2>
+              <h3>(Marketing)</h3>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-left h-100 colab">
+              <img src="img/pessoa-5.png" class="float-left">
+              <h2>Maria Fernanda de Castro</h2>
+              <h3>(Marketing)</h3>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-left h-100 colab">
+              <img src="img/pessoa-6.png" class="float-left">
+              <h2>Maria Fernanda de Castro</h2>
+              <h3>(Marketing)</h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="busca-ramais">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <center>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="BUSCA DE RAMAIS">
+              <div class="input-group-append">
+                <i class="fa fa-search justify-content-end" alt="Buscar..."></i>
+              </div>
+            </div>
+          </center>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="video">
+    <div class="container">
+      <div class="row h-100">
+        <div class="col-xs-12 col-sm-12 col-md-5 my-auto">
+          <iframe width="100%" height="300" src="https://www.youtube.com/embed/OBzilojYqRQ?controls=0" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-7 my-auto">
+          <h1>
+            Título do Video
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vulputate enim mollis ante cursus tristique.
+            Etiam commodo, velit non porta viverra, mauris felis fermentum magna, luctus lobortis augue erat
+          </p>
+          <div class="row">
+            <div class="col-md-4">
+              <iframe width="100%" height="120" src="https://www.youtube.com/embed/OBzilojYqRQ?controls=0"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <div class="col-md-4">
+              <iframe width="100%" height="120" src="https://www.youtube.com/embed/OBzilojYqRQ?controls=0"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <div class="col-md-4">
+              <iframe width="100%" height="120" src="https://www.youtube.com/embed/OBzilojYqRQ?controls=0"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-right">
+          <button type="button" class="btn-todos">Ver todos</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="titulo-noticias sec-destaque">
+    <hr width=40% align=left noshade>
+    <h1>Destaques</h1>
+  </div>
+
+  <section id="destaque">
+    <div class="container destaque">
+      <div class="row h-100">
+        <div class="img-carro col-3">
+          <img src="IMG/carro-destaque.png" class="" alt="...">
+          <div class="texto-carro text-center">
+            <h2>SEMINOVOS</h2>
+            <p>Rio de Janeiro</p>
+          </div>
+        </div>
+        <div class="segundo-bloco col-md-12 col-lg-9">
+          <div class="img-vivara col-12">
+            <div class="texto-vivara">
+              <h2>NOVA LOJA VIVARA</h2>
+              <p>São Paulo - Berrini</p>
+            </div>
+          </div>
+          <div class="img-destaque-pqn col-4 my-auto">
+            <div class="texto-img-branco">
+              <h5>VEJA NOSSO</h5>
+              <h5> ORGANOGRAMA</h5>
+            </div>
+            <div class="texto-etna text-center">
+              <h2>INAUGURAÇÃO ETNA</h2>
+              <p>Rio de Janeiro</p>
+            </div>
+            <div class="texto-man">
+              <img src="IMG/foto-destaque.png" width="100%" height=" 300">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <div class="galeria-fotos">
+      <h1>Galeria de Fotos</h1>
+    </div>
+
+    <section class="flex">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <button type="button" class="btn btn-rosa">Novidades</button>
+        <img src="./IMG/img-foto-1.png" alt="">
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <button type="button" class="btn btn-red">Novidades</button>
+        <img src="./IMG/img-foto-2.png">
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <button type="button" class="btn btn-red">Novidades</button>
+        <img src="./IMG/foto-noticias3.png">
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <button type="button" class="btn btn-rosa">Novidades</button>
+        <img src="./IMG/img-foto-4.png">
+      </div>
+    </section>
+  </section>
+
+  <div class="titulo-classificados">
+    <hr width=40% align=left noshade>
+    <h1>Classificados</h1>
+  </div>
+
+
+  <section id="classificado">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 text-center">
+          <div class="card text-left">
+            <img class="card-img-top" src="./IMG/classificado-1.png">
+            <div class="card-body">
+              <h1>Nome do produto</h1>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <h2 class="orange">R$ 50.000,00</h2>
+            </div>
+          </div>
+
+
+          <button class="btn bg-orange">VENDO</button>
+
+        </div>
+        <div class="col-md-3 text-center">
+
+          <div class="card text-left">
+            <img class="card-img-top" src="./IMG/classificado-2.png">
+            <div class="card-body">
+              <h1>Nome do produto</h1>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <h2 class="orange">R$ 50.000,00</h2>
+            </div>
+          </div>
+
+
+          <button class="btn bg-orange">VENDO</button>
+
+        </div>
+        <div class="col-md-3 text-center">
+
+          <div class="card text-left">
+            <img class="card-img-top" src="./IMG/classificado-3.png">
+            <div class="card-body">
+              <h1>Nome do produto</h1>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <h2 class="blue">R$ 50.000,00</h2>
+            </div>
+          </div>
+
+          <button class="btn bg-blue">DOOU</button>
+
+        </div>
+        <div class="col-md-3 text-center">
+
+          <div class="card text-left">
+            <img class="card-img-top" src="./IMG/classificado-4.png">
+            <div class="card-body">
+              <h1>Nome do produto</h1>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <h2 class="green">R$ 50.000,00</h2>
+            </div>
+          </div>
+          <button class="btn bg-green">ALUGO</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-timeline">
+    <div class="titulo-timeline">
+      <h2>TIMELINE</h2>
+      <button class="btn bg-line-vivara">VIVARA</button>
+      <button class="btn bg-line-etna">ETNA</button>
+    </div>
+
+    <div class="time-line-texto container col-md-12">
+      <div class="texto-time col-md-6 col-sm-12">
+        <h2>2017</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolores doloremque nihil cum minus veritatis
+          minima id quia, vitae quo voluptatum error libero sunt eos eligendi sapiente culpa, velit est.</p>
+      </div>
+
+      <div class="img-timeline col-md-6 col-sm-12">
+        <div class="row" id="card-time">
+          <div class="cardline col-md-4 col-sm-12">
+            <img class="card-time" src="./IMG/time-line-vivara.png">
+            <p>Lorem ipsum dolor sit amet, amet adipisicing.</p>
+          </div>
+          <div class="cardline col-md-4 col-sm-12">
+            <img class="card-time" src="./IMG/time-line-vivara2.png">
+            <p>Lorem ipsum dolor sit amet, amet amet adipisicing.</p>
+          </div>
+          <div class="cardline col-md-4 col-sm-12">
+            <img class="card-time" src="./IMG/time-line-vivara3.png">
+            <p>Lorem ipsum dolor sit amet, amet amet adipisicing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <ol>
+        <li>
+          <span class="point point1"></span>
+          <p class="description description1">2016</p>
+        </li>
+        <li>
+          <span class="point point2"></span>
+          <p class="description description2">2016</p>
+        </li>
+        <li>
+          <span class="point point3"></span>
+          <p class="description description3">2017</p>
+        </li>
+        <li>
+          <span class="point point4"></span>
+          <p class="description description4">2018</p>
+        </li>
+        <li>
+          <span class="point point5"></span>
+          <p class="description description5">2018</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="enquete">
+    <div class="container">
+      <div class="row h-100 col-12">
+        <div class="col-md-6 col-sm-12 bg-branco espacamento-quadro ">
+
+          <div class="row h-100">
+            <div class="col-md-5 col-sm-12 align-self-center">
+              <h1>ENQUETE</h1>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+            </div>
+            <div class="col-md-2 col-sm-3 align-self-center">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                  checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Sim
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                  checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Não
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                  checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Talvez
+                </label>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-8 align-self-center">
+              <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="60"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 15%" aria-valuenow="15"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="col-1 align-self-center">
+              <p class="percentual-bar-text">25%</p>
+              <p class="percentual-bar-text">60%</p>
+              <p class="percentual-bar-text">15%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-sm-12 h-100 no-bg align-self-center">
+          <h1>
+            Documentos
+          </h1>
+          <button type="button" class="btn">Ver todos</button>
+          <div class="row text-center">
+            <div class="col-4 h-100">
+              <div class="box-space">
+                <img src="img/enquete-icon.png">
+                <p>Marketing</p>
+              </div>
+            </div>
+
+            <div class="col-4 h-100">
+              <div class="box-space">
+                <img src="img/enquete-icon.png">
+                <p>Marketing</p>
+              </div>
+            </div>
+
+            <div class="col-4 h-100">
+              <div class="box-space">
+                <img src="img/enquete-icon.png">
+                <p>Marketing</p>
+              </div>
+            </div>
+
+            <div class="col-4 h-100">
+              <div class="box-space">
+                <img src="img/enquete-icon.png">
+                <p>Marketing</p>
+              </div>
+            </div>
+
+            <div class="col-4 h-100">
+              <div class="box-space">
+                <img src="img/enquete-icon.png">
+                <p>Marketing</p>
+              </div>
+            </div>
+
+            <div class="col-4 h-100">
+              <div class="box-space">
+                <img src="img/enquete-icon.png">
+                <p>Marketing</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-6 col-sm-12 bg-branco h-100 col-no-padding-left falar-rh align-self-center">
+          <img src="img/enquete-img.png" class="img-falarrh">
+          <p>
+          <h2>
+            você quer falar com o RH?
+          </h2>
+          <br>
+          <button type="button" class="btn">Clique aqui</button>
+          </p>
+        </div>
+
+        <div class="col-md-6 col-sm-12 h-100 reserva-sala-col align-self-center">
+          <div class="row reserva-sala h-100">
+
+            <div class="col-4 text-right align-self-center">
+              <img src="img/img-reserva.png" class="img-reserva">
+            </div>
+            <div class="col-8 text-left align-self-center">
+              <p> reserva de sala </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="mapa">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.769636823745!2d-46.696779185490186!3d-23.612593269370294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce574bcfba7f27%3A0x52a8fa01b05344c3!2sIT%20Lean!5e0!3m2!1spt-BR!2sbr!4v1599091655817!5m2!1spt-BR!2sbr"
+      width="100%" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+      tabindex="0"></iframe>
+  </section>
+
+  <section class="contatos">
+    <div class="fundo-gray container col-12">
+      <div class="fundo-branco justify-content-center">
+        <div class="faq col-md-4">
+          <div class="col-4">
+            <img src="./IMG/faq.png" class="img-faq img-responsive">
+          </div>
+          <div class="contato-sec col-8">
+            <h1>FAQ</h1>
+            <P> Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+            <button type="button" class="btn-faq">MAIS DETALHES</button>
+          </div>
+        </div>
+        <div class="faq col-md-4">
+          <div class="col-4">
+            <img src="./IMG/msg.png" class="img-faq img-responsive">
+          </div>
+          <div class="contato-sec col-8">
+            <h1>Fale Conosco</h1>
+            <P> Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+            <button type="button" class="btn-faq">MAIS DETALHES</button>
+          </div>
+        </div>
+        <div class="faq col-md-4">
+          <div class="col-4">
+            <img src="./IMG/cxa.png" class="img-faq img-responsive">
+          </div>
+          <div class="contato-sec col-8">
+            <h1>Benefícios</h1>
+            <P> Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+            <button type="button" class="btn-faq">MAIS DETALHES</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="mapa-site">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>Mapa do Site</h1>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <ul>
+            <li>Corporativo</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <ul>
+            <li>ETNA</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <ul>
+            <li>VIVARA </li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <img src="./IMG/img-footer.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer row col-12 justify-content-center">
+    <p>Copyright 2019, todos os direitos reservados</p>
+
+  </footer>
+
+  <script src="https://kit.fontawesome.com/8249cb0b43.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
