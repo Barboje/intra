@@ -516,7 +516,7 @@ input:focus, input.form-control:focus {
 }
 
 .img-vivara {
-  background-image: url(../IMG/vivara-destaque.png);
+  background-image: url(../IMG/bg-eventos.png);
   height: 282px;
   max-width: 100%;
   background-repeat: no-repeat;
@@ -769,7 +769,7 @@ input:focus, input.form-control:focus {
 }
 
 .home-timeline {
-  background-image: url("../IMG/bg-timeline.png");
+  background-image: url("../IMG/bg-eventos.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 740px;
